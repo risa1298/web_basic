@@ -16,7 +16,7 @@ public class UseForwardServlet1 extends HttpServlet {
  		System.out.println("サーブレットの実行");
  
  		//フォワード先の指定
- 		RequestDispatcher dispatcher =	request.getRequestDispatcher("/view/ch09/useForward.jsp");
+ 		RequestDispatcher dispatcher =	request.getRequestDispatcher("/view/useForward.jsp");
  
  		//フォワードの実行
  		dispatcher.forward(request, response);
